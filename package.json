@@ -1,0 +1,41 @@
+{
+  "name": "api-sport-cli",
+  "version": "0.0.0",
+  "description": "CLI for api-sports.io, get all matchs.",
+  "main": "bin/index.js",
+  "bin": {
+    "api-sport": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "lint": "eslint 'src/**/*.{js,ts}' --fix",
+    "build": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BilelJegham/api-sport-cli"
+  },
+  "keywords": [
+    "sport",
+    "api"
+  ],
+  "author": "BilelJegham",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/shelljs": "^0.8.12",
+    "@types/yargs": "^17.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.39.0",
+    "open": "^9.1.0",
+    "ora": "^5.4.1",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.0.4",
+    "yargs": "^17.7.2"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}

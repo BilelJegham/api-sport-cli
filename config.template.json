@@ -1,0 +1,46 @@
+{
+    "columns":{
+        "sport": "sport",
+        "league": "league.name",
+        "season": "fixture.date",
+        "teamA": "teams.home.name",
+        "teamB": "teams.away.name",
+        "venue": "fixture.venue.name",
+        "city": "fixture.venue.city",
+        "apiId": "fixture.id"
+    },
+    "leagues": {
+        "rugby": [
+            {
+                "league": 69,
+                "season": 2023
+            }
+        ],
+        "football": [
+            {
+                "league": 66,
+                "season": 2022
+            },
+            {
+                "league": 66,
+                "season": 2022
+            },
+            {
+                "league": 61,
+                "season": 2022
+            },
+            {
+                "league": 2,
+                "season": 2022
+            },
+            {
+                "league": 525,
+                "season": 2022
+            },
+            {
+                "league": 3,
+                "season": 2022
+            }
+        ]
+    }
+}
