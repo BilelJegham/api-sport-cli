@@ -43,7 +43,7 @@ npm install
 npm link .
 
 # Build & launch
-npm build && api-sport
+npm run build && api-sport
 
 # uninstall (unlink)
 npm unlink .

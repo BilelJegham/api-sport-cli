@@ -46,7 +46,7 @@ export function getConfigurations(path: string){
 
 export function formatMatch(match: any, columns: Record<string, string>) {
   return Object.keys(columns).reduce((acc, key) => {
-    acc[key] = `"${getValueByKey(match, columns[key])}"`.replace(/'/g, "''")
+    acc[key] = `'${getValueByKey(match, columns[key]).toString().replace(/'/g, "''")}'`
     return acc
   }, {} as any)
   
