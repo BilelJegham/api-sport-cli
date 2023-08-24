@@ -1,6 +1,6 @@
 {
   "name": "api-sport-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI for api-sports.io, get all matchs.",
   "main": "bin/index.js",
   "bin": {
