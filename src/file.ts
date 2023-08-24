@@ -55,7 +55,7 @@ export function formatMatch(match: any, columns: Record<string, string>) {
 function getValueByKey(obj: any, path: string){
   const paths = path.split('.')
   return paths.reduce((acc, key) => {
-    if(!acc[key]) throw new Error(`key ${key} not found, path: ${path}`)
+    if(acc[key] === undefined) throw new Error(`key ${key} not found, path: ${path}`)
     return acc[key]
   }, obj)
 }
